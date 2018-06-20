@@ -96,5 +96,5 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.RunPython(create_marker_and_route),
+#        migrations.RunPython(create_marker_and_route),
     ]
